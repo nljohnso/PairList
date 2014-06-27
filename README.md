@@ -10,7 +10,7 @@ PairList<?, ?> aPairList = new PairList<>();
 
 Adding different types:
 =======================
-
+```
   Pair<?, ?> aPair = new Pair<Integer, String>(65546546, "test");
   Pair<?, ?> aPair2 = new Pair<Integer, Double>(655460546, 12.23123124);
   Pair<?, ?> aPair3 = new Pair<Character, Byte>('T', Byte.MAX_VALUE);
@@ -22,5 +22,5 @@ Adding different types:
   aPairList.add(aPair4);
 
   System.out.println(aPairList.toString());
-
+```
 OUTPUT: (65546546 : test), (655460546 : 12.23123124), (T : 127), (another string : 12.23123124)
