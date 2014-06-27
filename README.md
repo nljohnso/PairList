@@ -23,4 +23,7 @@ Adding different types:
 
   System.out.println(aPairList.toString());
 ```
-OUTPUT: (65546546 : test), (655460546 : 12.23123124), (T : 127), (another string : 12.23123124)
+OUTPUT: 
+```
+(65546546 : test), (655460546 : 12.23123124), (T : 127), (another string : 12.23123124)
+```
