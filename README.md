@@ -12,8 +12,11 @@ Adding different types:
 =======================
 
 Pair<?, ?> aPair = new Pair<Integer, String>(65546546, "test");
+
 Pair<?, ?> aPair2 = new Pair<Integer, Double>(655460546, 12.23123124);
+
 Pair<?, ?> aPair3 = new Pair<Character, Byte>('T', Byte.MAX_VALUE);
+
 Pair<?, ?> aPair4 = new Pair<String, Double>("another string", 12.23123124);
 
 aPairList.add(aPair);
