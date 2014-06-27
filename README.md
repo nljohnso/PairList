@@ -1,7 +1,7 @@
 PairList
 ========
 
-PairList acts like an ArrayList, but it will allow the additions of pairs of types which is represented by the Pair<?, ?> class. Since PairList implements java generics no primitive types will be allowed use.
+PairList acts like an ArrayList, but it will allow the additions of pairs of types which is represented by the Pair<?, ?> class. Since PairList implements java generics no primitive types will be allowed. PairList includes pretty much all ArrayList methods.
 
 Initializing PairList:
 ======================
