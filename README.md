@@ -6,7 +6,9 @@ PairList acts like an ArrayList, but it will allow the additions of pairs of typ
 Initializing PairList:
 ======================
 
+```
 PairList<?, ?> aPairList = new PairList<>();
+```
 
 Adding different types:
 =======================
